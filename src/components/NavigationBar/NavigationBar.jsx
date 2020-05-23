@@ -1,8 +1,8 @@
 import React from 'react';
 import '../../scss/NavigationBar.scss'
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
-import SignUp from '../SignUp'
-// import About from '../About'
+import SignUp from '../SignUp';
+import About from '../About';
 
 function NavigationBar() {
     return (
@@ -31,8 +31,11 @@ function NavigationBar() {
             </div>
 
             <Switch>
-                <Route exact path="/Signup">
+                <Route exact path="/signup">
                     <SignUp />
+                </Route>
+                <Route exact path="/about">
+                    <About />
                 </Route>
             </Switch>
         </Router>

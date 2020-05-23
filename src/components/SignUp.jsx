@@ -29,17 +29,13 @@ export default function SignUp() {
             autoComplete="fname"
             name="firstName"
             required
-            fullWidth
             id="firstName"
-            label="First Name"
             autoFocus
             />
 
             <input
             required
-            fullWidth
             id="lastName"
-            label="Last Name"
             name="lastName"
             autoComplete="lname"
             />
@@ -55,9 +51,7 @@ export default function SignUp() {
 
             <input
             required
-            fullWidth
             name="password"
-            label="Password"
             type="password"
             id="password"
             autoComplete="current-password"
